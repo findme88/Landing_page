@@ -294,10 +294,69 @@ a {
 .gallery__img {
   max-width: 100%;
   padding-bottom: 30px;
-  
 }
 
 .gallery--button {
   background-color: #5585a2;
   margin: 20px 0 120px;
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+  background: url("../images/subscribe-bg.jpg") no-repeat center right;
+  min-height: 600px;
+  max-height: 800px;
+}
+
+.subscribe__row {
+  height: 80vh;
+  align-items: center;
+}
+
+.subscribe__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--grey);
+  margin-bottom: 34px;
+}
+
+.subscribe__desc {
+  font-size: 17px;
+  color: var(--grey);
+  text-align: left;
+  width: 542px;
+  margin-bottom: 31px;
+}
+
+.subscribe__form {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribe__form-input {
+  font-size: 15px;
+  border: 1px solid var(--grey);
+  width: 570px;
+  height: 55px;
+  padding: 22px 15px;
+}
+::-webkit-input-placeholder {
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.subscribe__form-button {
+  font-size: 20px;
+  width: 170px;
+  height: 55px;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+  background-color: #96b92c;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 30px;
+  padding: 15px 20px;
+}
+
+.subscribe__form-button:hover {
+  cursor: pointer;
 }
